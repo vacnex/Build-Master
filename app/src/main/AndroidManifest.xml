@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.vacnex.buildmaster">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BuildMaster">
+        <activity android:name=".Settings"></activity>
+        <activity android:name=".Archive" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".Pc_part_screen" />
+        <activity android:name=".Pc_buid_save" />
+        <activity android:name=".Pc_build_checkout" />
+        <activity
+            android:name=".Dialog.Dialog_cpu"
+            android:label="@string/selectcpu"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity android:name=".Pc_build_screen" />
+        <activity
+            android:name=".Dialog.Dialog_vga"
+            android:label="@string/selectvga"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".Dialog.Dialog_mb"
+            android:label="@string/selectmb"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".Dialog.Dialog_ram"
+            android:label="@string/selectram"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".Dialog.Dialog_monitor"
+            android:label="@string/selectmonitor"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".Dialog.Dialog_fan"
+            android:label="@string/selectfan"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".Dialog.Dialog_case"
+            android:label="@string/selectcase"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".Dialog.Dialog_vgacool"
+            android:label="@string/selectvgacool"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".Dialog.Dialog_cpucool"
+            android:label="@string/selectcpucool"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".Dialog.Dialog_psu"
+            android:label="@string/selectpsu"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".Dialog.Dialog_hdd"
+            android:label="@string/selecthdd"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".Dialog.Dialog_ssd"
+            android:label="@string/selectssd"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

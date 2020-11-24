@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Build Master</string>
+    <string name="app_ver">0.0.1</string>
+    <string name="app_setting">Settings</string>
+    <string name="app_feedback">Feedback</string>
+    <string name="app_credits">CREDITS</string>
+    <string name="app_dev">Developer</string>
+    <string name="app_design">Designer</string>
+    <string name="app_des">This app is still under heavy development stage, parts missing and inaccurate data, there are still many bugs and glitches. \n\nFeedback to me using the button above\n</string>
+    <string name="app_archive">Archives</string>
+    <string name="pc">PC Build</string>
+    <string name="latop">Laptop</string>
+    <string name="pc_part">PC Part Search</string>
+    <string name="back_home">Home screen</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+    <string name="done">Done</string>
+    <string name="require">Required</string>
+    <string name="searchhint">Parts name</string>
+    <string name="searchcpu">Cpu name</string>
+    <string name="searchvga">Vga name</string>
+    <string name="searchram">Ram name</string>
+    <string name="searchmb">Mainbroad name</string>
+    <string name="searchssd">Ssd name</string>
+    <string name="searchhdd">Hdd name</string>
+    <string name="searchpsu">Power supply name</string>
+    <string name="searchcpucool">CPU Cooling name</string>
+    <string name="searchvgacool">VGA Cooling name</string>
+    <string name="searchcase">Case name</string>
+    <string name="searchfan">Fan name</string>
+    <string name="searchmonitor">Monitor name</string>
+
+    <string name="savenameexample">Name</string>
+    <string name="select">Select</string>
+    <string name="selectcpu">Select Cpu</string>
+    <string name="selectvga">Select Vga</string>
+    <string name="selectram">Select Ram</string>
+    <string name="selectmb">Select Mainbroad</string>
+    <string name="selectssd">Select Ssd</string>
+    <string name="selecthdd">Select hdd</string>
+    <string name="selectpsu">Select Psu</string>
+    <string name="selectcpucool">Select Cpu Cooling</string>
+    <string name="selectvgacool">Select Vga Cooling</string>
+    <string name="selectcase">Select case</string>
+    <string name="selectfan">Select fan</string>
+    <string name="selectmonitor">Select monitor</string>
+
+
+    <string name="price">Price: </string>
+    <string name="platform">Just show AMD CPU and MB</string>
+    <string name="cpu">CPU</string>
+    <string name="vga">Graphic Card</string>
+    <string name="mb">Mainboard</string>
+    <string name="ram">RAM</string>
+    <string name="psu">PSU</string>
+    <string name="ssd">SSD</string>
+    <string name="hdd">HDD</string>
+    <string name="cpu_cooling">CPU Cooling</string>
+    <string name="vga_cooling">VGA Cooling</string>
+    <string name="fan">Fan</string>
+    <string name="pccase">Case</string>
+    <string name="monitor">Monitor</string>
+    <string name="choose_cpu">Choose Cpu</string>
+    <string name="choose_vga">Choose Graphic Card</string>
+    <string name="choose_mb">Choose Mainboard</string>
+    <string name="choose_ram">Choose RAM</string>
+    <string name="choose_psu">Choose PSU</string>
+    <string name="choose_ssd">Choose SSD</string>
+    <string name="choose_hdd">Choose HDD</string>
+    <string name="choose_cpu_cooling">Choose CPU Cooling</string>
+    <string name="choose_vga_cooling">Choose VGA Cooling (Update Later)</string>
+    <string name="choose_fan">Choose Fan</string>
+    <string name="choose_case">Choose Case</string>
+    <string name="choose_monitor">Choose Monitor</string>
+    <string name="none">None</string>
+    //Cpu
+    <string name="cpu_cores">Cores: </string>
+    <string name="cpu_threads">Threads: </string>
+    <string name="cpu_code_name">Code Name: </string>
+    <string name="cpu_littho">Lithography: </string>
+    <string name="cpu_basef">Base Frequency: </string>
+    <string name="cpu_turbof">Turbo Frequency: </string>
+    <string name="cpu_cache">Cache: </string>
+    <string name="cpu_tdp">TDP: </string>
+    <string name="cpu_max_mem">Max Memory Size: </string>
+    <string name="cpu_mem_type">Memory Types: </string>
+    <string name="cpu_graphic">Graphics: </string>
+    <string name="cpu_socket">Socket: </string>
+    //vga
+    //
+    <string name="vga_basef">Base Frequency: </string>
+    <string name="vga_boostf">Boost Frequency: </string>
+    <string name="vga_vram">Vram: </string>
+    <string name="vga_tdp">TDP: </string>
+    //Ram
+    <string name="ram_size">Size: </string>
+    <string name="ram_type">Type: </string>
+    <string name="ram_buss">Buss: </string>
+    <string name="ram_coolling">Coolling: </string>
+    //Mainbroad
+    <string name="mb_man">Manufacturer: </string>
+    <string name="mb_socket">Socket: </string>
+    <string name="mb_formfactor">From factor: </string>
+    <string name="mb_chipset">Chipset: </string>
+    //Ssd
+    <string name="ssd_read">Read speed: </string>
+    <string name="ssd_write">Write speed: </string>
+    <string name="ssd_type">Type: </string>
+    <string name="ssd_size">Size: </string>
+    //hdd
+    <string name="hdd_read">Read speed: </string>
+    <string name="hdd_write">Write speed: </string>
+    <string name="hdd_type">Type: </string>
+    <string name="hdd_size">Size: </string>
+    //Psu
+    <string name="psu_in">Input: </string>
+    <string name="psu_out">Output: </string>
+    <string name="psu_max">Max: </string>
+    <string name="psu_standard">Certification: </string>
+    //VGA Cooling
+    <!--    <string name="vgac_read">Read speed: </string>-->
+    <!--    <string name="ssd_write">Write speed: </string>-->
+    <!--    <string name="ssd_type">Type: </string>-->
+    <!--    <string name="ssd_size">Size: </string>-->
+    //CPU Cooling
+    <string name="cpuc_radsize">Rad size: </string>
+    <string name="cpuc_socket">Socket: </string>
+    <string name="cpuc_matblock">Block material: </string>
+    <string name="cpuc_matrad">Rad material: </string>
+    //Case
+    <string name="case_type">Type: </string>
+    <string name="case_size">Size: </string>
+    <string name="case_mainsp">Support mainbroad: </string>
+    <string name="case_glass">Glass: </string>
+    //Fan
+    <string name="fan_size">Size: </string>
+    <string name="fan_type">Type: </string>
+    <string name="fan_rpm">RPM: </string>
+    <string name="fan_db">DB: </string>
+    //Monitor
+    <string name="mt_panel">Panel: </string>
+    <string name="mt_ratio">Ratio: </string>
+    <string name="mt_res">Resolution: </string>
+    <string name="mt_hz">Refresh rate: </string>
+    //part des price
+    <string name="part_other">Other Technology: </string>
+    <string name="part_price">Price: </string>
+
+</resources>

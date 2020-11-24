@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">Build Master</string>
+    <string name="app_ver">0.0.1</string>
+    <string name="app_setting">Cài đặt</string>
+    <string name="app_feedback">Phản hồi</string>
+    <string name="app_credits">GHI NHẬN</string>
+    <string name="app_dev">Người Phát Triển</string>
+    <string name="app_design">Người Thiết Kế</string>
+    <string name="app_des">Ứng dụng này còn trong giai đoạn phát triển nhiều, các dữ liệu về linh kiện thiếu và không chính xác, còn tồn tại nhiều bug, glitch.\n\nPhản hồi cho tôi bằng cách sử dụng nút ở trên</string>
+    <string name="app_archive">Lưu trữ</string>
+    <string name="pc">Xây dựng PC</string>
+    <string name="latop">Laptop</string>
+    <string name="pc_part">Tra cứu linh kiện</string>
+    <string name="back_home">Màn hình chính</string>
+    <string name="back">Quay lại</string>
+    <string name="next">Tiếp theo</string>
+    <string name="save">Lưu</string>
+    <string name="done">Xong</string>
+    <string name="require">Không để trống</string>
+    <string name="searchhint">Tên linh kiện</string>
+    <string name="searchcpu">Tên vi xử lý</string>
+    <string name="searchvga">Tên Card màn hình</string>
+    <string name="searchram">Tên Ram</string>
+    <string name="searchmb">Tên Bo mạch chủ</string>
+    <string name="searchssd">Tên Ssd</string>
+    <string name="searchhdd">Tên Hdd</string>
+    <string name="searchpsu">Tên nguồn</string>
+    <string name="searchcpucool">Tên tản nhiệt vi xử lý</string>
+    <string name="searchvgacool">Tên tản nhiệt card rời</string>
+    <string name="searchcase">Tên thùng máy</string>
+    <string name="searchfan">Tên quạt</string>
+    <string name="searchmonitor">Tên màn hình</string>
+
+    <string name="savenameexample">Tên</string>
+    <string name="platform">Chỉ hiện AMD CPU và Bo Mạch Chủ</string>
+    <string name="select">Chọn</string>
+    <string name="selectcpu">Chọn Vi xử lý</string>
+    <string name="selectvga">Chọn Card màn hình</string>
+    <string name="selectram">Chọn Ram</string>
+    <string name="selectmb">Chọn Bo mạch chủ</string>
+    <string name="selectssd">Chọn ssd</string>
+    <string name="selecthdd">Chọn hdd</string>
+    <string name="selectpsu">Chọn nguồn</string>
+    <string name="selectcpucool">Chọn tản nhiệt vi xử lý</string>
+    <string name="selectvgacool">Chọn tản nhiệt card rời</string>
+    <string name="selectcase">Chọn thùng máy</string>
+    <string name="selectfan">Chọn quạt</string>
+    <string name="selectmonitor">Chọn màn hình</string>
+
+
+    <string name="price">Giá: </string>
+    <string name="cpu">Vi Xử Lí</string>
+    <string name="vga">Card Đồ Hoạ</string>
+    <string name="mb">Bo Mạch Chủ</string>
+    <string name="ram">RAM</string>
+    <string name="psu">Nguồn</string>
+    <string name="ssd">SSD</string>
+    <string name="hdd">HDD</string>
+    <string name="cpu_cooling">Tản Nhiệt CPU</string>
+    <string name="vga_cooling">Tản Nhiệt VGA</string>
+    <string name="fan">Quạt</string>
+    <string name="pccase">Thùng Máy</string>
+    <string name="monitor">Màn Hình</string>
+    <string name="choose_cpu">Chọn Vi Xử Lý</string>
+    <string name="choose_vga">Chọn Card Đồ Hoạ</string>
+    <string name="choose_mb">Chọn Bo Mạch Chủ</string>
+    <string name="choose_ram">Chọn RAM</string>
+    <string name="choose_psu">Chọn Nguồn</string>
+    <string name="choose_ssd">Chọn SSD</string>
+    <string name="choose_hdd">Chọn HDD</string>
+    <string name="choose_cpu_cooling">Chọn Tản Nhiệt CPU</string>
+    <string name="choose_vga_cooling">Chọn Tản Nhiệt VGA (Cập nhật sau)</string>
+    <string name="choose_fan">Chọn Quạt</string>
+    <string name="choose_case">Chọn Thùng Máy</string>
+    <string name="choose_monitor">Chọn Màn Hình</string>
+    <string name="none">Không có</string>
+    //CPU
+    <string name="cpu_cores">Số nhân: </string>
+    <string name="cpu_threads">Số luồng: </string>
+    <string name="cpu_code_name">Tên mã: </string>
+    <string name="cpu_littho">Tiến trình: </string>
+    <string name="cpu_basef">Xung cơ bản: </string>
+    <string name="cpu_turbof">Xung turbo: </string>
+    <string name="cpu_cache">Bộ nhớ đệm: </string>
+    <string name="cpu_tdp">Công suất: </string>
+    <string name="cpu_max_mem">Dung lượng bộ nhớ tối đa: </string>
+    <string name="cpu_mem_type">Loại bộ nhớ: </string>
+    <string name="cpu_graphic">Đồ hoạ: </string>
+    <string name="cpu_socket">Socket: </string>
+    //VGA
+    <string name="vga_basef">Xung nhịp: </string>
+    <string name="vga_boostf">Xung nhịp turbo: </string>
+    <string name="vga_vram">Dung lượng bộ nhớ: </string>
+    <string name="vga_tdp">Nguồn: </string>
+    //Ram
+    <string name="ram_size">Dung lượng: </string>
+    <string name="ram_type">Loại: </string>
+    <string name="ram_buss">Buss: </string>
+    <string name="ram_coolling">Tản nhiệt: </string>
+    //Mainbroad
+    <string name="mb_man">Hãng: </string>
+    <string name="mb_socket">Socket: </string>
+    <string name="mb_formfactor">Kích thước: </string>
+    <string name="mb_chipset">Chipset: </string>
+    //Ssd
+    <string name="ssd_read">Tốc độ đọc: </string>
+    <string name="ssd_write">Tốc độ ghi: </string>
+    <string name="ssd_type">Loại: </string>
+    <string name="ssd_size">Dung lượng: </string>
+    //hdd
+    <string name="hdd_read">Tốc độ đọc: </string>
+    <string name="hdd_write">Tốc độ ghi: </string>
+    <string name="hdd_type">Loại: </string>
+    <string name="hdd_size">Dung lượng: </string>
+    //Psu
+    <string name="psu_in">Đầu vào: </string>
+    <string name="psu_out">Đầu ra: </string>
+    <string name="psu_max">Công suất tối đa: </string>
+    <string name="psu_standard">Chứng nhận: </string>
+    //VGA Cooling
+    <!--    <string name="vgac_read">Read speed: </string>-->
+    <!--    <string name="ssd_write">Write speed: </string>-->
+    <!--    <string name="ssd_type">Type: </string>-->
+    <!--    <string name="ssd_size">Size: </string>-->
+    //CPU Cooling
+    <string name="cpuc_radsize">Kích thước Rad: </string>
+    <string name="cpuc_socket">Socket hỗ trợ: </string>
+    <string name="cpuc_matblock">Vật liệu Block: </string>
+    <string name="cpuc_matrad">Vật liệu Rad: </string>
+    //Case
+    <string name="case_type">Loại: </string>
+    <string name="case_size">Kích thước: </string>
+    <string name="case_mainsp">Hỗ trợ bo mạch chủ: </string>
+    <string name="case_glass">Kính: </string>
+    //Fan
+    <string name="fan_size">Kích thước: </string>
+    <string name="fan_type">Loại: </string>
+    <string name="fan_rpm">Tốc độ: </string>
+    <string name="fan_db">Độ ồn: </string>
+    //Monitor
+    <string name="mt_panel">Tấm nền: </string>
+    <string name="mt_ratio">Tỉ lệ: </string>
+    <string name="mt_res">Độ phân giải: </string>
+    <string name="mt_hz">Tần số quét: </string>
+    //part des price
+    <string name="part_other">Công nghệ khác: </string>
+    <string name="part_price">Giá: </string>
+</resources>
