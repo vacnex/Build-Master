@@ -1,7 +1,10 @@
 package io.vacnex.buildmaster;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
+import androidx.appcompat.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -117,6 +120,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         InitControl();
         InitToolbar();
+        AlertDialog.Builder builder = new AlertDialog.Builder(this,R.style.AlertDialogTheme);
+        builder.setTitle(R.string.dialogTitle).setMessage(R.string.dialogMes);
+        builder.setPositiveButton(R.string.dialogOK, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+        final AlertDialog dialog = builder.create();
+        dialog.show();
+
+
     }
 
     //TODO: Thêm CPU i7 i5 i3 pentium

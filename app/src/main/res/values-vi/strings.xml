@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Build Master</string>
     <string name="app_ver">0.0.1</string>
+    <string name="dialogTitle">Lưu ý</string>
+    <string name="dialogMes">Bạn đang sử dụng phiên bản test chức năng, điều này có nghĩa là mọi dữ liệu trong ứng đều có thể sai hoặc thiếu. Các chức năng cũng sẽ cập nhật sau.</string>
+    <string name="dialogOK">Đã hiểu</string>
+
+
     <string name="app_setting">Cài đặt</string>
     <string name="app_feedback">Phản hồi</string>
     <string name="app_credits">GHI NHẬN</string>

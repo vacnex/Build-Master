@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Build Master</string>
     <string name="app_ver">0.0.1</string>
+    <string name="dialogTitle">Note</string>
+    <string name="dialogMes">You are using the functional test version, which means that any data in the application is either wrong or missing. The functions will also update later.</string>
+    <string name="dialogOK">Understood</string>
     <string name="app_setting">Settings</string>
     <string name="app_feedback">Feedback</string>
     <string name="app_credits">CREDITS</string>
